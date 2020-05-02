@@ -1,1 +1,62 @@
 // Specific CSS for your home-page
+.video-chacha {
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;	
+	width: 100%;
+	background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1588413009/marseille_ohtvnz.jpg');
+	background-repeat: round;
+	.text {
+		max-width: 50%;
+		text-align: center;
+		width: 640px;
+		height: 50%;
+		h1 {
+			padding: 1rem
+		}
+		iframe{
+			width: 100%;
+			height: 100%;
+		}
+		@media only screen and (max-width: 700px) {
+			iframe{
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+.devise-container {
+	text-align: center;
+	height: 100vh;	
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8rem 2rem 2rem 2rem;
+  	flex-direction: column;
+  	form {
+	  	border: 1px solid;
+	  	flex-direction: column;
+	  	justify-content: center;
+	  	padding: 1rem 1rem 1rem 1rem;
+  	}
+  	background-image: url('https://res.cloudinary.com/dovu27lye/image/upload/v1588413009/marseille_ohtvnz.jpg');
+  	background-repeat: round;
+  	color: white;
+  	.form-actions {
+		text-align: center;
+		font-weight: 700;
+		.btn {
+			color: white
+		}
+  	}
+  	a {
+  		color: white;
+  		margin-top: 3rem;
+  		border: 1px solid;
+  		padding: 1rem 1rem 1rem 1rem;
+  	}
+}
